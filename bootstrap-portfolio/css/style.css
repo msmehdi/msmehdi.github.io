@@ -1,0 +1,160 @@
+body {
+  margin-top: 100px;
+}
+
+.navbar {
+  box-shadow: 3px 3px 5px rgb(0, 0, 0, 20%);
+  opacity: 0.9;
+  background: #fff;
+}
+
+section#boxes, section#about, section#authors, section#contact {
+  padding: 75px 0 !important;
+}
+
+.navbar .nav-item {
+  font-size: 1.4rem;
+  padding-right: 20px;
+}
+
+#showcase {
+  position: relative;
+  background: url("../img/coverss.jpg");
+  min-height: 600px;
+}
+  
+#showcase .primary-overlay {
+  background: rgba(5, 14, 16, 0.4);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.btn-block {
+  background: #0bc772;
+  border-radius: 30px;
+  border: none;
+  outline: none;
+}
+
+.text-green, .border-green, .green {
+  color: #0bc772 !important;
+}
+
+.border-green {
+  border-bottom: 2px solid #0bc772;
+}
+
+.border-bottom-white {
+  border-bottom: 2px solid #fff;
+  color: #fff !important;
+}
+
+.info-header {
+  border: none !important;
+}
+
+.custom-border {
+  border: 1px solid #f2f2f2;
+}
+
+.border-bottom-green {
+  font-size: 25px;
+  padding-bottom: 13px;
+  border-bottom: 2px solid #0bc772;
+  margin-bottom: 15px;
+}
+
+.card-body {
+  box-shadow: 3px 3px 5px rgb(0, 0, 0, 0.2);
+}
+
+.small-size {
+  width: 85%;
+  margin-top: 40px;
+}
+
+.text-gray {
+  color: #cfcfcf;
+}
+
+.img-container {
+  max-width: 200px;
+  width: 100%;
+}
+
+a.b-radius {
+  border-radius: 30px;
+  background: #0bc772;
+  border: none;
+  outline: none;
+  padding: 10px 40px;
+}
+
+h1.l-height {
+  line-height: 3.5rem;
+}
+
+section#newsletter {
+  background: #f5f5f5;
+}
+
+.bg-green, section#about {
+  background: #0bc772 !important;
+}
+
+.background-gray {
+  background: #f8f9fa !important;
+  margin: 0 auto;
+  color: #0bc772 !important;
+  border-top: 2px solid #0bc772;
+  font-weight: bold;
+}
+
+.info-header {
+  width: 50%;
+  margin: auto;
+  border-bottom: 1px #ddd solid;
+}
+
+#heading1, #heading2, #heading3 {
+  background: white;
+  cursor: pointer;
+}
+
+#authors img {
+  margin-top: -50px;
+}
+
+.margin-bottom-0 {
+  margin-bottom: 0;
+}
+
+.icon {
+  color: #0bc772;
+  font-size: 25px;
+}
+
+@media (min-width: 468px) and (max-width: 767px) {
+  body {
+    margin-top: 95px;
+  }
+
+  .margin-bottom {
+    margin-bottom: 17px !important;
+  }
+
+  .width-100 {
+    width: 100%;
+  }
+
+  .margin-bottom-50 {
+    margin-bottom: 50px !important;
+  }
+
+  .margin-top-35 {
+    margin-top: 35px;
+  }
+}
